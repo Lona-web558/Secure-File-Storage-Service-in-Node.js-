@@ -1,0 +1,27 @@
+I'll create a secure file storage service using only Node.js built-in modules (no Express or external dependencies).
+
+Perfect! I've created a complete Secure File Storage Service using **only Node.js built-in modules** - no Express or external dependencies.
+
+**Key Features:**
+- Uses only Node.js built-in modules (http, fs, crypto, path, url, querystring)
+- Traditional JavaScript syntax with `var` and regular functions
+- User authentication with token-based sessions
+- File upload, download, and deletion
+- Custom multipart form data parser (since we can't use multer)
+- Clean web interface
+- Runs on localhost:3000
+
+**Files Created:**
+1. **server.js** - Complete HTTP server with manual routing and multipart parsing
+2. **index.html** - Full-featured web interface (in public folder)
+3. **README.md** - Comprehensive documentation
+
+**To get started:**
+Simply run:
+```bash
+node server.js
+```
+
+Then open http://localhost:3000 in your browser, register an account, and start uploading files!
+
+The server implements everything from scratch including HTTP routing, request parsing, multipart form handling, and file operations - all without any external npm packages.
